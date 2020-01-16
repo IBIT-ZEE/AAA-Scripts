@@ -1,0 +1,1 @@
+echo %* >> C:\DAT\AAA\_notesX.txt

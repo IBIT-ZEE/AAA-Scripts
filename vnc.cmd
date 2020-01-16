@@ -1,0 +1,1 @@
+vnc-view.cmd %*

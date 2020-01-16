@@ -1,0 +1,1 @@
+clamav64.cmd %*

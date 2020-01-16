@@ -1,0 +1,1 @@
+memoniks-properties.cmd %*

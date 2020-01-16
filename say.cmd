@@ -1,0 +1,1 @@
+c:\dat\%%js\say.js %*

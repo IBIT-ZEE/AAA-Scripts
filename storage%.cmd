@@ -1,0 +1,1 @@
+storage-%%.ps1

@@ -1,0 +1,1 @@
+www-sinonimo.cmd %*

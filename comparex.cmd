@@ -1,0 +1,1 @@
+folders-compare.cmd %* 

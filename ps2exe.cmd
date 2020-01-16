@@ -1,0 +1,1 @@
+C:\APL\!TOOLS\_PROGRAMMING\PS2Exe\ps2exe.ps1 %*
