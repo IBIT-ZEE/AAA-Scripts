@@ -1,1 +1,1 @@
-task-kill %*
+process-kill.cmd %*

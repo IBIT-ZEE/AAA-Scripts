@@ -1,1 +1,1 @@
-task-list %*
+process-list.cmd %*
