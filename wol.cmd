@@ -1,1 +1,1 @@
-wol-.cmd
+AAA-Message "Use:" "" "WOL-"

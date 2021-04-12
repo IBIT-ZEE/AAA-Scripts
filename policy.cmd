@@ -1,1 +1,1 @@
-policy-
+auditpol.exe %*

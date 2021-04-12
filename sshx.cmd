@@ -1,1 +1,1 @@
-C:\Windows\System32\OpenSSH\ssh.exe %*
+start /b "" C:\APL\!TOOLS\_NETWORK\_EXPLORER\WinSCP\WinSCP.exe %*

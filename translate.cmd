@@ -1,2 +1,2 @@
-! chrome "https://translate.google.com/#pt/en/%~1" 
+@%%.cmd chrome.lnk "https://translate.google.com/?text=%~1"
 

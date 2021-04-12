@@ -1,1 +1,1 @@
-cd /d C:\Users\ZEEX\AppData\Local\Temp
+cd /d c:\XXX\!!!!TEMP

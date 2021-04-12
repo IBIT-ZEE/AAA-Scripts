@@ -1,1 +1,2 @@
-start "PS-ISE" C:\Windows\system32\WindowsPowerShell\v1.0\powershell_ise.exe %*
+start /b "%date% ~ %time%" C:\APL\Microsoft\Code64\Code.exe c:\dat\#scripts\x.ps1
+

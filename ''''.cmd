@@ -5,13 +5,13 @@
 	@echo off
 	if '%~1'=='' goto CATCH1
 
-	echo ~~~~ %*|clip
+	echo ~~ %*|clip
 
 	echo,
 	echo,
 	echo 	Clipboard now contains:
 	echo,
-	echo 	~~~ %*
+	echo 	~~ %*
 	
 	goto :END
 
@@ -21,7 +21,9 @@
 
 	echo 	'''' ^<data^> 
 	echo,
-	echo 	to Clip ^<data^> and message to command-line secured with "~"
+	echo 	Clipboard ^<data^> and message to command-line secured with "~~" dummy...
+	echo 	so you can paste immediatly on command line without side effects.
+	echo,
 	echo 	no AAA Logo/Cleanup/Sibling-detection
 	echo 	for use inside scripts
 

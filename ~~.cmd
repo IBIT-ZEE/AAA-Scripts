@@ -1,1 +1,2 @@
-pushd c:\APL\Cygwin64\home\ZEEX
+:: dummy to use ~~ in command line
+

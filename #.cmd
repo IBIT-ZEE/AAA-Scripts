@@ -5,11 +5,11 @@
 :INITIALIZE
 	setlocal
 	:: if not defined aavObject goto ERR_SYNTAX
-
+	if "%~1"=="" AAA-Message "Supply a Shortcut name..."
 
 :MAIN
-
-	:: if not exist %homedrive%\dat\#links\%x%.lnk goto ERR_ABSENT
+	set x=%homedrive%\dat\#links\%~1.lnk
+	if not exist %x% goto ERR_ABSENTIA
 	start "%x%" %x%
 	goto END
 
@@ -19,6 +19,10 @@
 	grep -Poz "^:TEXT1\K[\w\W]*?(?=^:)" %~f0
 	goto :END
 
+
+:ERR_ABSENTIA
+	AAA-Message "Shortcut inexistent..." "" %x%
+	GOTO :END
 
 :END
 	echo.
@@ -33,20 +37,4 @@
 :EXIT
 
 
-
-:TEXT0
-	Ocurreu um erro
-
-:TEXT1
-
-	# ???
-	
-	
-	examples:
-		# ???
-
-
-:TEXT2
-	não encontrado como executavel nos percursos de pesquisa pre-difinidos...
-:
 

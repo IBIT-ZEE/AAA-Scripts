@@ -30,6 +30,6 @@
 :OBS
 	'' <command> 
 	
-	to Clip <output> from command
+	Clipboard <output> from command
 :
 

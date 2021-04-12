@@ -3,8 +3,8 @@ Call AAA-Log %0 %*
 
 :MAIN
 	setlocal
-	set xFolder=c:\apl\!tools\nirsoft64
-	if "%xFolder%\%~1"=="" goto GO
+	set xFolder=c:\apl\!tools\nirsoft
+	if "%xFolder%\%~1"==""           goto :GO
 	if not exist "%xFolder%\%~1.exe" goto :GO
 	goto :GOX
 

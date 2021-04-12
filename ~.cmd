@@ -1,1 +1,1 @@
-cd %userprofile%
+cd /d %USERPROFILE%

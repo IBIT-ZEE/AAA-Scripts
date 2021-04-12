@@ -1,1 +1,1 @@
-pushd C:\APL\!TOOLS\(image)\_OCR\tessaract
+cd /d C:\APL\!TOOLS\(image)\_OCR\Tesseract64

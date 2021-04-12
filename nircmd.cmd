@@ -1,1 +1,1 @@
-c:\APL\!TOOLS\NirSoft64\nircmd.exe %*
+c:\apl\!TOOLS\NirSoft\x64\nircmd.exe %*

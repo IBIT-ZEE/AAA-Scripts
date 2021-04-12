@@ -28,7 +28,7 @@
 :OBS
 	' <data>
 	
-	to Clip <data>
+	Clipboard <data>
 	
 :
 

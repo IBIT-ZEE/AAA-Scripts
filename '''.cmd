@@ -3,9 +3,9 @@
 Call AAA-Log %0 %*
 
 if "%~1"=="" (
-	echo 	'''' ^<command^> 
+	echo 	''' ^<command^> 
 	echo,
-	echo 	to Clip ^& Edit output... 
+	echo 	Clipboard ^<data^> ^& Edit output... 
 	echo,
 	echo,
 	exit /b
