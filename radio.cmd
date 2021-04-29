@@ -1,1 +1,1 @@
-radios-random.ps1
+radio-random.ps1

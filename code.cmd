@@ -1,10 +1,12 @@
 
+
+
 :ENTRY
 	setlocal
 
 	Call IBIT-Log %0 %*
 	
-	set xExts=cmd ps1 py
+	set xExts=cmd ps1 py perl
 
 	if "%1"=="" ( 
 		AAA-Message ^
@@ -13,10 +15,13 @@
 			"Code <script>" ^
 			"" ^
 			"View code from scripts in AAA-Ecosystem..." ^
-			"Code is aware of : .%xExts: =/.%"
+			"Code is aware of : .%xExts: =|.%"
+
 		)
 	
 	if not defined AAA-Env ( AAA-Message "AAA-Vars missing, need AAA-Env..." )
+	
+	goto :END
 
 
 :MAIN

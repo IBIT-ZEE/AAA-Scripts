@@ -1,1 +1,1 @@
-@cd /d "c:\Users\Public\Documents"
+@cd /d "c:\XXX\!!!!SHARE\(shared)"

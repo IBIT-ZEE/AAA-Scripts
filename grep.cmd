@@ -1,1 +1,1 @@
-"C:\APL\!TOOLS\____CLI\Cygwin64\grep.exe" %*
+@C:\APL\!TOOLS\____CLI\Cygwin64\grep.exe -i %*
