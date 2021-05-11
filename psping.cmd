@@ -1,1 +1,1 @@
-c:\apl\!TOOLS\Sysinternals\psping.exe %*
+"c:\apl\!TOOLS\Sysinternals\psping64.exe" %*

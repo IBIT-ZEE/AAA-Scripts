@@ -1,1 +1,1 @@
-c:\apl\!TOOLS\Sysinternals\PsExec.exe %*
+c:\apl\!TOOLS\Sysinternals\PsExec64.exe %*
