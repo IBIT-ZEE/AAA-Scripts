@@ -1,1 +1,1 @@
-c:\dat\%%js\say.js %*
+@wscript c:\dat\WSH\say.js %*

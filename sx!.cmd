@@ -1,1 +1,1 @@
-cd /d c:\dat\#scriptsX
+@cd /d c:\dat\#scriptsX

@@ -1,0 +1,1 @@
+% start /b "" vs-aaa.lnk

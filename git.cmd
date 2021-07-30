@@ -1,1 +1,12 @@
-@if "%~1"=="" ( git-.ps1 ) else ( c:\apl\Git64\bin\git.exe %* )
+@if "%~1"=="" ( 
+	aaa-message   ^
+		"Use:"    ^
+		""        ^
+		"	git-" ^
+		""        ^
+		"	-or-" ^
+		""        ^
+		"	git <...>"
+	) else ( 
+	c:\apl\Git64\bin\git.exe %* 
+	)

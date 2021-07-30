@@ -1,5 +1,5 @@
 @if "%~1"=="" AAA-Message ^
-	"Uue: deno-" ^
+	"Use: deno-" ^
 	""           ^
 	"-or-"       ^
 	""           ^

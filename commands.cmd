@@ -1,3 +1,0 @@
-cd "C:\dat\#Scripts"
-
-
