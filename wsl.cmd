@@ -1,1 +1,1 @@
-AAA-Message "Use:" "" "WSL-" "" "~or~ WSL.exe to override"
+AAA-Message "Use:" "" "WSL-" "" "~or~ " "" "WSL.exe (to override...)"

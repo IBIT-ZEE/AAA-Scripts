@@ -1,0 +1,1 @@
+@start Deno.lnk
