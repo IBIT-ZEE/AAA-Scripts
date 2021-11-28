@@ -1,1 +1,1 @@
-C:\Windows\System32\vmconnect.exe zee-oem "(work)-WindowsX64"
+@C:\Windows\System32\vmconnect.exe server0 "(work)"

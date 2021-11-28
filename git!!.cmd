@@ -1,1 +1,1 @@
-cd /d C:\xxx\git
+@cd /d C:\xxx\git

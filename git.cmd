@@ -8,5 +8,5 @@
 		""        ^
 		"	git <...>"
 	) else ( 
-	c:\apl\Git64\bin\git.exe %* 
+	c:\apl\git\Git64\bin\git.exe %*
 	)

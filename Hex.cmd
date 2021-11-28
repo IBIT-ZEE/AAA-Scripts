@@ -1,0 +1,1 @@
+@convert-toHexadecimal.ps1 %*

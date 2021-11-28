@@ -14,8 +14,8 @@
 
 :: %*
 :: and next drop console used to launch the executable
-start /b "" %*
-exit /b
+@start /b "" %*
+@exit /b
 
 
 

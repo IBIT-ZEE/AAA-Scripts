@@ -50,7 +50,7 @@
 	:: C:\APL\!TOOLS\_APPLETS\Notepad++64\notepad++.exe %1
 	
 	Call AAA-Message %x% 
-	cat %x%
+	More.com %x%
 	goto :END
 
 

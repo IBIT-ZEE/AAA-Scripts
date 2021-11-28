@@ -1,1 +1,1 @@
-process-list.cmd %*
+process-list %*

@@ -10,7 +10,7 @@ if "%~1"=="" aaa-message "wh <filename>" "" "No filename specified"
 
 	echo Which... (using Cygwin or GNU which ?@CLI!)
 	:: dont call if ALIAS Which.cmd is on
-	Which.exe %1
+	c:\APL\Cygwin64\bin\which.exe %1
 	echo,
 	echo,
 

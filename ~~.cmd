@@ -1,2 +1,2 @@
-:: dummy to use ~~ in command line
-
+@echo ~~ NULLIFIER ( ***NULLIFIED*** command line )
+@echo,%*

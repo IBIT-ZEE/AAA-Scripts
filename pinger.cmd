@@ -1,1 +1,1 @@
-ip-pinger.ps1
+ip-pinger.ps1 LAN

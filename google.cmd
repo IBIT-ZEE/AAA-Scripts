@@ -1,1 +1,1 @@
-google-.cmd
+@google-.ps1

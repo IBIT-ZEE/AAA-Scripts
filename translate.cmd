@@ -1,2 +1,1 @@
-@%%.cmd chrome.lnk "https://translate.google.com/?text=%~1"
-
+@start /b "%*" "http://translate.google.com/?q=%*"
