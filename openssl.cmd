@@ -1,1 +1,2 @@
-@ssl.cmd
+
+@AAA-Message "Use:" "" "ssl.cmd"

@@ -1,30 +1,25 @@
-@echo off
 
-:BEGIN
-	:: if no args message & exit
-	if "%~1"=="" (
-		Call aaa-message ^
-			"Fork:" ^
-			"" ^
-			"net-" ^
-			"net.exe"
-
-		exit /b
-		REM AAA-ScriptsXX %~n0
-		)
 
 :MAIN
-	:: else recurse to command
+	@echo off
+	
+	if "%~1"=="" (
+		Call AAA-Obs %0
+		nic-list
+		)
+	
 	net.exe %*
 
-:END
-	echo,
-	echo,
 	exit /b
 
 
 :OBS
-ATT***
+	Fork:
+
+	net-
+	net.exe for os command override
 
 
-
+========
+NIC-List
+--------

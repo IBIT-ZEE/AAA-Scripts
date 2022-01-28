@@ -1,1 +1,1 @@
-cd /d "c:\apl\!TOOLS"
+@cd /d "c:\apl\!TOOLS"

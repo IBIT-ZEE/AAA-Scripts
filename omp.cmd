@@ -1,0 +1,1 @@
+@C:\APL\!TOOLS\_SYSTEM\_CONSOLE\OhMyPosh\posh-windows-amd64.exe --config "C:\APL\!TOOLS\_SYSTEM\_CONSOLE\OhMyPosh\_zee.json" %*

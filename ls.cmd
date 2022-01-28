@@ -1,24 +1,18 @@
 @echo off
-if "%~1"=="/?" AAA-Obs %0
+if "%~1"=="" AAA-Obs %0
 
 :BEGIN
 	setlocal
 
-	if NOT "%~2"=="" ( 
-		if exist "%~2" ( 
-			set x=%2\*%1* 
-			) else ( 
-			AAA-Message "Path not existent:" "" "%2" 
+	if not exist "%~1" (
+			AAA-Message "Path do not exist:" "" "%1" 
 			)
-		) else (
-		set x="*%~1*"
-		)
 
 :MAIN
 	@echo off
 	
 	set VK_TAB=	
-	for %%f in ( %x% ) do @( echo %%~tf ^| %%~af ^| %%~zf%VK_TAB% ^| %%~xf ^| %%~nf )
+	for %%f in ( %1 ) do @( echo %%~tf ^| %%~af ^| %%~zf%VK_TAB% ^| %%~xf%VK_TAB% ^| %%~nf )
 
 
 :END
@@ -28,13 +22,22 @@ if "%~1"=="/?" AAA-Obs %0
 	exit /b
 
 
-:OBS
+:Obs
 
-		ls /?
-		ls [ <filter> [path] ]
+	Syntax:
 
-		ls x
-		ls lan \dat\aaa
-		ls www %AAA-Data%
+		ls <path>
+	
+		*Wildcards accepted (?/*)
+		>lsx for recursive behaviour
+
+		Samples
+		=======
+			ls /?
+			ls x.*
+			ls *.x*
+		
+			ls \Windows\*.exe
+			ls c:\Windows\System32\*.msc
 
 

@@ -1,0 +1,17 @@
+
+
+
+// JScript demo...
+try
+	{
+	WScript.Echo( "JScript..." );
+	WScript.Echo( WScript.Arguments.Items );
+	}
+catch(e)
+	{
+	WScript.Echo( "Catch..." );
+	}
+
+
+WScript.Quit( 0 );
+

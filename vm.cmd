@@ -1,34 +1,36 @@
 
 
-:: if no args message & exit
-if "%~1"=="" (
-	Call aaa-message ^
-		"Fork:" ^
-		"" ^
-		"VM-" ^
-		"" ^
-		"Hyper-V/vmconnect extension actions..." ^
-		"" ^
-		"States:" ^
-		"VM0 -> Work/WindowsX64" ^
-		"VM1 -> Work/WindowsX32" ^
-		"..."
+:MAIN
+	@echo off
+	if "%~1"=="" ( AAA-Obs %0 )
 
-	AAA-ScriptsXX %~n0
-	
-	)
+	vmconnect.exe %*
+	exit /b
 
-:: else recurse to command
-vmconnect.exe %*
-exit /b
+
+	:: AAA-ScriptsXX %~n0
 
 
 
 :OBS
-ATT***
-...
-...
-...
+	Fork:
+
+	VM <args...>
+	VM-
+	...
+
+
+	 /\---------------------/\
+	<v^> Hyper-V leverage: <^v>
+	 \/---------------------\/
+	
+	
+		Hyper-V/vmconnect extension actions...
+
+		States:
+		VM0 -> Work/WindowsX64
+		VM1 -> Work/WindowsX32
+		...
 
 
 

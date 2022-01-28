@@ -1,1 +1,1 @@
-@synonymsX.cmd %*
+@synonymX %*

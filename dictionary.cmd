@@ -1,4 +1,3 @@
-@if "%~1"=="" AAA-Message "Supply a word to explain..."
-:: @google-chrome.cmd https://dicionario.priberam.org/%*
-@google-chrome.cmd https://www.merriam-webster.com/thesaurus/%*
-
+@if "%~1"=="" AAA-Message "Palavra a procurar..." "" "dictionaryX/dicX for english..." 
+:: @edge https://www.merriam-webster.com/thesaurus/%*
+@edge https://dicionario.priberam.org/%*
