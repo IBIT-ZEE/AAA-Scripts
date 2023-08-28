@@ -1,1 +1,1 @@
-@cd /d C:\Users\ZEEX\xx
+@cd /d %USERPROFILE%\xx

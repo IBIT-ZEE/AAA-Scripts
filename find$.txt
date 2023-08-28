@@ -1,0 +1,16 @@
+
+
+
+// FIND
+* simple all-in filter (no wildcards)
+? implement wildcards?? as -option??? or auto?
+find ze
+
+
+// FINDX
+
+
+// FZF
+Fuzzy find... fzf.exe
+
+

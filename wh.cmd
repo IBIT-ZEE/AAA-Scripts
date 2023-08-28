@@ -1,1 +1,0 @@
-@Where.exe %1

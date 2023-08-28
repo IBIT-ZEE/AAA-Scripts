@@ -5,7 +5,7 @@
 
 	if "%~1"=="" (
 		Call AAA-Obs %0
-		ls "*" %aaa-data%
+		ls %aaa-data%\*
 		goto :END
 		)
 

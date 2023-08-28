@@ -1,0 +1,1 @@
+@( echo  && Timeout 60 && say "1 minute pass..." )

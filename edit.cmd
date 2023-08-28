@@ -1,1 +1,1 @@
-@start "%*" C:\APL\!TOOLS\_applets\Notepad++64\notepad++.exe %*
+@start "%*" C:\APL\!TOOLS\AAA\binxx\Notepad++64\notepad++.exe %*

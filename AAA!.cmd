@@ -1,1 +1,1 @@
-@cd /d c:\APL\AAA
+@cd /d c:\APL\!TOOLS\AAA

@@ -1,1 +1,1 @@
-@c:\apl\Git\Git64\gh.exe %*
+@c:\apl\Git\gh64.exe %*

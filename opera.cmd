@@ -1,1 +1,1 @@
-aaa-logX.cmd opera-browser.cmd %*
+@cd /d c:\apl\Opera\Browser\opera.exe %*

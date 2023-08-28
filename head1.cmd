@@ -1,0 +1,1 @@
+@for /f %%f in ( %* ) do @( echo 1 %%f & exit /b )

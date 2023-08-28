@@ -1,1 +1,1 @@
-iscsi-.cmd
+iscsi-

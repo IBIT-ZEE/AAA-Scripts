@@ -1,1 +1,1 @@
-start /b "TightVNC" c:\apl\!TOOLS\_NETWORK\_REMOTE\TightVNC\viewer64.exe %*
+@start /b "TVNC64" c:\apl\!TOOLS\AAA\bin\tvnc64.exe %*

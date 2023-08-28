@@ -1,1 +1,1 @@
-dhcp-.cmd
+@aaa-message "Use:" "" "dhcp-"

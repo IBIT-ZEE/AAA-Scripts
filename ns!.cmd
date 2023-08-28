@@ -1,1 +1,1 @@
-cd /d c:\APL\!TOOLS\NirSoft\x64
+cd /d c:\APL\!TOOLS\AAA\binxx\NirSoft\x64

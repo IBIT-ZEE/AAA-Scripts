@@ -9,6 +9,9 @@
 
 
 :Obs
+>docker-
+>wsl-
+>kali
 
 	AAA/Fork for docker
 	Official ClI/GUI

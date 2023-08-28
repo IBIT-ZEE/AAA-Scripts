@@ -1,24 +1,30 @@
-@echo off
-if "%~1"=="/?" AAA-Obs %0
 
 :BEGIN
-	setlocal
+	@echo off
+	if "%~1"=="" AAA-Obs %0
 
-	if NOT "%~2"=="" ( 
-		if exist "%~2" ( 
-			set x=%2\*%1* 
-			) else ( 
-			AAA-Message "Path not existent:" "" "%2" 
-			)
-		) else (
-		set x="*%~1*"
-		)
 
 :MAIN
-	@echo off
+	setlocal
 	
+	if "%~2"=="" (
+		set x=%cd%
+		) else ( 
+		if exist "%~2" ( 
+			set x=%~f2
+			) else ( 
+			AAA-Message "%2  <~  Path not exist..." 
+			)
+		)
+
 	set VK_TAB=	
-	for %%f in ( %x% ) do @( echo %%~tf ^| %%~af ^| %%~zf%VK_TAB% ^| %%~xf ^| %%~nf )
+	:: set xx=
+	:: ERR*** %vars% not changing inside for-interaction
+	:: echo %%~tf ^| %%~af ^| %%~zf%VK_TAB% ^| %%~xf ^| %%~nf
+	:: echo %%~nxf  -  %%~dpf
+	for /R %x% %%f in ( *%1* ) do (
+		echo %%~ff
+		)
 
 
 :END
@@ -29,12 +35,23 @@ if "%~1"=="/?" AAA-Obs %0
 
 
 :OBS
+>dir
+>ls
+>tree
 
-		ls /?
-		ls [ <filter> [path] ]
+		find <filter> [path]
+		
+		* find the filter (wilcard aware ?*)
+		* in argumented path (defaults to current folder)
+		* and subfolders
 
-		ls x
-		ls lan \dat\aaa
-		ls www %AAA-Data%
+		find *.??c
+		find *.cmd
+		find lan \dat\aaa
 
+
+		ATT***
+			ALPHA VERSION...
+			listing not optimized 
+			due to Windows Batch language quirks
 

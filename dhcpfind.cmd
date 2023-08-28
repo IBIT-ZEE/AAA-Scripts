@@ -1,1 +1,1 @@
-c:\apl\!TOOLS\Roadkill\dhcpfind.exe
+@c:\apl\!TOOLS\Roadkill\dhcpfind.exe %*

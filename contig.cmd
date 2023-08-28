@@ -1,1 +1,1 @@
-@c:\apl\!TOOLS\Sysinternals\contig.exe %*
+@c:\apl\!TOOLS\AAA\binxx\Sysinternals\contig.exe %*

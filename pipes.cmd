@@ -1,1 +1,1 @@
-c:\apl\!TOOLS\Sysinternals\pipelist64.exe %*
+@C:\APL\!TOOLS\Sysinternals\pipelist.exe %*

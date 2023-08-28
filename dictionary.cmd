@@ -1,3 +1,4 @@
-@if "%~1"=="" AAA-Message "Palavra a procurar..." "" "dictionaryX/dicX for english..." 
+@if "%~1"=="" AAA-Message "Word to find..." "" "didcionario/dic para Portugues..." 
 :: @edge https://www.merriam-webster.com/thesaurus/%*
-@edge https://dicionario.priberam.org/%*
+@start /b "%1" https://www.thesaurus.com/browse/%*
+

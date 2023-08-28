@@ -13,6 +13,16 @@
 
 
 :OBS
+>hyperv-
+>proxmox-
+>qemu-
+>virtualbox-
+>vm-
+
+>me-
+>?host-*
+
+
 	Fork:
 
 	VM <args...>
