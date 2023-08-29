@@ -1,1 +1,1 @@
-cd /d c:\Users
+cd /d c:\users

@@ -1,1 +1,1 @@
-cd /d c:\apl\!tools\sysinternals
+@cd /d c:\apl\!tools\aaa\binxx\sysinternals

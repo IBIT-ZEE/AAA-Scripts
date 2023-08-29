@@ -1,1 +1,1 @@
-@AAA-Message "Use:" "" "Disk"
+@c:\apl\!tools\aaa\binxx\sysinternals\diskext.exe %*

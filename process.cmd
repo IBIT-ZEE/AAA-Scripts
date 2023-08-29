@@ -1,1 +1,1 @@
-@process-list %*
+@c:\apl\!tools\aaa\binxx\sysinternals\pslist.exe %*

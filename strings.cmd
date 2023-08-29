@@ -1,1 +1,1 @@
-c:\APL\!TOOLS\Sysinternals\strings.exe %*
+@c:\apl\!tools\aaa\binxx\sysinternals\strings.exe %*

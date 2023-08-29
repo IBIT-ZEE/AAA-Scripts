@@ -1,1 +1,1 @@
-@c:\APL\!TOOLS\Sysinternals\PsInfo.exe -d %*
+@c:\apl\!tools\aaa\binxx\sysinternals\psinfo.exe %*

@@ -1,1 +1,1 @@
-@C:\APL\!TOOLS\Sysinternals\ntfsinfo64.exe %*
+@c:\apl\!tools\aaa\binxx\sysinternals\ntfsinfo.exe %*

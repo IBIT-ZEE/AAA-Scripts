@@ -1,1 +1,1 @@
-c:\apl\!TOOLS\Sysinternals\sigcheck.exe -a -h %*
+@c:\apl\!tools\aaa\binxx\sysinternals\sigcheck.exe %*

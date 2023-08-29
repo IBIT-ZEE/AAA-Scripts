@@ -1,1 +1,1 @@
-c:\apl\!TOOLS\Sysinternals\whois.exe %*
+@c:\apl\!tools\aaa\binxx\sysinternals\whois.exe %*

@@ -1,1 +1,1 @@
-@cd /d c:\DAT\AAA\Data
+@cd /d c:\DAT\AAA

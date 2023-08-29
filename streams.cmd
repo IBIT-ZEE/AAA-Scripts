@@ -1,1 +1,1 @@
-"c:\APL\!TOOLS\Sysinternals\streams.exe" %*
+@c:\apl\!tools\aaa\binxx\sysinternals\streams.exe %*

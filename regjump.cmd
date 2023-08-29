@@ -1,1 +1,1 @@
-"c:\apl\!TOOLS\Sysinternals\regjump.exe" %*
+@c:\apl\!tools\aaa\binxx\sysinternals\regjump.exe %*

@@ -1,1 +1,1 @@
-@C:\APL\!TOOLS\Sysinternals\ru64.exe %*
+@c:\apl\!tools\aaa\binxx\sysinternals\ru.exe %*

@@ -1,1 +1,1 @@
-C:\Windows\System32\query.exe session /counter
+@c:\apl\!tools\aaa\binxx\sysinternals\logonsessions.exe %*

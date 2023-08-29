@@ -1,1 +1,1 @@
-@c:\APL\!TOOLS\Sysinternals\psping.exe %*
+@c:\apl\!tools\aaa\binxx\sysinternals\psping.exe %*

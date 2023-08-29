@@ -1,1 +1,1 @@
-@c:\APL\!TOOLS\Sysinternals\PsGetsid64.exe %*
+@c:\apl\!tools\aaa\binxx\sysinternals\psgetsid.exe %*

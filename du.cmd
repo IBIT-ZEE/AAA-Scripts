@@ -1,1 +1,1 @@
-@c:\apl\!TOOLS\Sysinternals\du.exe %*
+@c:\apl\!tools\aaa\binxx\sysinternals\du.exe %*
